@@ -1,0 +1,28 @@
+{
+  "name": "simple-lib-rollup",
+  "version": "0.0.1",
+  "description": "Simple lib with rollup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyhou/simple-lib-rollup.git"
+  },
+  "keywords": [
+    "rollup",
+    "lib"
+  ],
+  "author": "zyhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zyhou/simple-lib-rollup/issues"
+  },
+  "homepage": "https://github.com/zyhou/simple-lib-rollup#readme",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "rollup": "^1.30.1"
+  }
+}
