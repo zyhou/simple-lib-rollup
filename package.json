@@ -2,8 +2,15 @@
   "name": "simple-lib-rollup",
   "version": "0.0.1",
   "description": "Simple lib with rollup",
-  "main": "index.js",
+  "main": "dist/say-hello.cjs.js",
+  "module": "dist/say-hello.esm.js",
+  "browser": "dist/say-hello.umd.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
